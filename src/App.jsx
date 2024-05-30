@@ -1,6 +1,6 @@
 import React, { useEffect, useRef ,useState} from 'react';
 import emailjs from '@emailjs/browser';
-import resume from './assets/test.pdf'
+import resume from './assets/resume.pdf'
 import './App.css';
 import './profile.css';
 import './contact.css';
