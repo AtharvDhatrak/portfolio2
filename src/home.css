@@ -1,0 +1,52 @@
+.homesection{
+    width: 100%;
+    display:flex;
+    height:200px;
+    /* background-color:blue; */
+    margin-top:100px;
+    align-items:center;
+    justify-content:center;
+}
+
+.outercircle{
+    width:100px;
+    height:100px;
+    background-color:blue;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.innercircle{
+    width: 50%;height: 50%;
+    background-color:yellow;
+    border-radius:50%;
+}
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+  .first div {
+    background-color:#20a7d8;
+  }
+  .second div {
+    background-color:#CD921E;
+  }
+  .third div {
+    background-color:#c10528;
+  }
+

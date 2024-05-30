@@ -1,0 +1,132 @@
+.projects{
+    width:100%;
+    height:100%;
+    /* background-color: blue; */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.projectcontainer{
+    width: 70%;
+    height: 100%;
+    display:flex;
+    flex-direction:row;
+    overflow:hidden;
+    justify-content:space-evenly;
+    align-items:space-evenly;
+    /* background-color:blue; */
+    flex-wrap: wrap;
+    margin-right:50px;
+    margin-left:50px;
+
+}
+
+.projectcard{
+    min-width:300px;
+    min-height:300px;
+    margin:20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    display:flex;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for frosted look */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Dark shadow for depth */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); 
+    /* background-color:rgb(255, 255, 255); */
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    overflow:hidden;
+
+}
+
+.projectimg{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* margin-top:10px; */
+    width:90%;
+    height:40%;
+    object-fit: cover;
+    /* background-color: bisque; */
+    margin:0px;
+    flex-direction:row;
+    object-fit:contain;
+    margin-top:10px;
+
+}
+.projectimg img{
+    width: 100%;
+    /* height:100; */
+    object-fit: cover;
+    border-radius:10px;
+    object-fit:cover;
+}
+.projectinfo{
+    width: 80%;
+    height:60%;
+    /* background-color:aquamarine; */
+    margin-bottom:20px;
+    display:flex;
+    justify-content: center;
+   text-wrap: wrap;
+   /* font-size:20px; */
+   padding:10px;
+   overflow-x:scroll;
+   -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.projectinfo ::-webkit-scrollbar{
+    visibility:hidden;
+}
+
+.github{
+    font-size:25px;
+    display:flex;
+    position:fixed;
+    width:40px;
+    height:40px;
+    margin-top:40px;
+    /* margin-left:10px; */
+    font-size:24px;
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    visibility:hidden;
+}
+
+.projectcard:hover .github{
+    visibility:visible;
+
+}
+.github i{
+margin:0px;
+padding:0px;
+}
+.projectname{
+    /* color:black; */
+    box-shadow: 0 4px 30px rgba(7, 7, 7, 0); /* Dark shadow for depth */
+    /* background-color:#343434; */
+    display:flex;
+    /* background-color:aquamarine; */
+    width:50%;
+    border-radius: 20px 20px 0px 0px;
+    height:30px;
+    position:fixed;
+    margin-bottom:6px;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+@media only screen and (min-width: 100px) and (max-width: 767px){
+
+}
