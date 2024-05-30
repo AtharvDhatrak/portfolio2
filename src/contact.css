@@ -122,6 +122,7 @@ form input,textarea{
 
 form input[type="submit"]{
   width:15%;
+  /* margin-left:30%; */
 }
 
 
@@ -147,5 +148,7 @@ input[type="submit"]{
     display:flex;
     flex-direction:row;
     overflow:scroll;
+    justify-content:center;
+    align-items:center;
   }
 }
